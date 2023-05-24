@@ -10,7 +10,7 @@ from mantid import config
 config.setLogLevel(0, quiet=True)
 from mantid.simpleapi import *
 from mantid.geometry import CrystalStructure, ReflectionGenerator, ReflectionConditionFilter
-#silence mantid log reporting
+
 
 
 #Usage: run script by typing:
